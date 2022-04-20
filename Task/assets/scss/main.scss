@@ -1,0 +1,84 @@
+@import "./utilities/mixins.scss";
+@import "./utilities/variables.scss";
+
+.cus-row{
+    height: 70px;
+    margin-top: 20px;
+    
+}
+.cus-head{
+    background-color: white;
+}
+
+.cus-ul{
+    @include direct-row ;
+    list-style: none;
+    position: fixed;
+    
+    color: rgb(58, 58, 58);
+    font-size: medium;
+    
+    
+    li{
+       margin-right: 45px;
+        ul{
+            display: none;
+            
+        }
+
+    }
+}
+.cus-drop{
+    background-color: white;
+    position: relative;
+    top:46px;
+    right: 60px;
+    ul{
+        list-style: none;
+        
+    }
+}
+#right-ul li a{
+    display: flex;
+
+    text-decoration: none;
+    color: $logoColor;
+    @include xy-center;
+}
+
+.cus-logo{
+    a{
+        img{
+            max-height: 25px;
+            max-width: 110px;
+            margin-bottom: 5%;
+        }
+    }
+    
+}
+.cus-ul li:hover{
+    color: dodgerblue;
+    
+}
+.cus-ul li:hover{
+    ul{
+        display:initial; 
+        display: flex; 
+        flex-direction: column;
+        
+     }
+}
+@media screen and (max-width: 960px) {
+.cus-collapse{
+    display: none;
+}
+}
+@media screen and (max-width: 672px) {
+    .icon-collapse{
+        display: none;
+    }
+    
+}
+body{
+    background-color: aqua;
+}
