@@ -1,6 +1,5 @@
 .cus-row {
-  height: 70px;
-  margin-top: 20px; }
+  height: 70px; }
 
 .cus-head {
   background-color: white; }
@@ -9,27 +8,11 @@
   display: flex;
   flex-direction: row;
   list-style: none;
-  position: fixed;
+  justify-content: end;
   color: #3a3a3a;
   font-size: medium; }
   .cus-ul li {
-    margin-right: 45px; }
-    .cus-ul li ul {
-      display: none; }
-      .cus-ul li ul li {
-        border-bottom: 1px solid rgba(102, 102, 102, 0.527);
-        margin-top: 5px;
-        position: absolute; }
-        .cus-ul li ul li a {
-          text-decoration: none; }
-
-.cus-drop {
-  background-color: white;
-  position: relative;
-  top: 46px;
-  transform: translateX(-50%); }
-  .cus-drop ul {
-    list-style: none; }
+    margin-left: 20px; }
 
 #right-ul li a {
   display: flex;
@@ -42,15 +25,216 @@
 .cus-logo a img {
   max-height: 25px;
   max-width: 110px;
-  margin-bottom: 5%; }
+  margin-bottom: 10px; }
+
+.cus-moon-img {
+  background-image: url("https://www.nokia.com/sites/default/files/styles/m100_desktop/public/2022-03/Moon_nokia_lead_op1.jpg?h=f3e1135c");
+  width: 100%;
+  height: 800px;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.cus-bg-img {
+  background-image: url("https://www.nokia.com/sites/default/files/styles/scale_1146_x_740_imagecarousel_compact_portrait_main/public/2022-04/nokia_pp_digital_21_1150x740%20%281%29.jpg");
+  width: 100%;
+  min-height: 700px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .cus-bg-img div {
+    display: flex;
+    flex-direction: column;
+    align-items: start; }
+    .cus-bg-img div h1 {
+      color: white;
+      font-size: 72px; }
+    .cus-bg-img div p {
+      color: white;
+      font-weight: 300;
+      margin-top: 20px;
+      font-size: 24px !important;
+      line-height: 32.74px;
+      margin-bottom: 28px; }
+    .cus-bg-img div button {
+      width: 200px;
+      height: 50px; }
+
+#explore {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px; }
+
+.cus-explore-img {
+  background-image: url("https://www.nokia.com/sites/default/files/styles/scale_720_width/public/2022-04/6940_Real%20Action%20Header_AF_V1Real%20Action%20-%201120x560%20NO%20TEXT%20%281%29.jpg");
+  width: 80%;
+  min-height: 700px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: flex-start; }
+  .cus-explore-img div {
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+    .cus-explore-img div h1 {
+      color: white;
+      font-size: 72px; }
+    .cus-explore-img div p {
+      color: white;
+      font-weight: 300;
+      margin-top: 20px;
+      font-size: 24px !important;
+      line-height: 32.74px;
+      margin-bottom: 28px; }
+    .cus-explore-img div button {
+      width: 200px;
+      height: 50px; }
+
+.cus-img img {
+  height: 100%;
+  width: 100%; }
+
+.cus-row {
+  justify-content: space-between; }
+
+.cus-moon-img .cus-container {
+  display: flex;
+  height: 100%;
+  align-items: end; }
+  .cus-moon-img .cus-container div {
+    min-height: 400px;
+    padding-left: 40px;
+    background-color: #2965ED;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+    .cus-moon-img .cus-container div h1 {
+      color: white;
+      font-size: 72px; }
+  .cus-moon-img .cus-container .cus-btn {
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    color: #2965ED; }
+
+.wh-logo {
+  max-height: 25px;
+  max-width: 110px; }
+
+.soc-med {
+  display: flex;
+  color: white;
+  justify-content: space-between; }
+  .soc-med .cus-a {
+    display: flex;
+    align-items: center; }
+    .soc-med .cus-a a {
+      color: white;
+      text-decoration: none; }
+
+.cus-soc {
+  display: flex;
+  justify-content: start; }
+  .cus-soc ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 0;
+    padding: 0; }
+    .cus-soc ul li {
+      margin-right: 25px;
+      width: 40px;
+      height: 40px;
+      border: 1px solid white;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+
+.cus-footer-btn {
+  border: 1px solid white;
+  width: 200px;
+  height: 50px;
+  color: white; }
+
+.subscribe {
+  display: flex;
+  justify-content: end;
+  align-items: center; }
+  .subscribe span {
+    width: 50%;
+    color: white;
+    font-weight: bold; }
+
+footer {
+  background-color: #001135; }
+
+.footer-nav-bar {
+  display: flex; }
+
+.cus-div-navbar {
+  color: white; }
+  .cus-div-navbar p a {
+    text-decoration: none;
+    color: white;
+    font-size: small; }
+  .cus-div-navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0; }
+    .cus-div-navbar ul li {
+      margin-top: 15px; }
+      .cus-div-navbar ul li a {
+        text-decoration: none;
+        color: rgba(255, 255, 255, 0.671);
+        font-size: small; }
+
+.cus-hr {
+  width: 100%;
+  height: 1px;
+  color: white; }
+
+.row-copyright {
+  display: flex;
+  flex-direction: row;
+  align-items: center; }
+
+.copyright {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  justify-content: end; }
+  .copyright li a {
+    color: rgba(255, 255, 255, 0.377);
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: x-small; }
+
+.cus-footer-btn:hover {
+  color: #2965ED;
+  background-color: white;
+  transform: scale(1.05);
+  transition: 0.4s; }
 
 .cus-ul li:hover {
   color: dodgerblue; }
 
-.cus-ul li:hover ul {
-  display: initial;
-  display: flex;
-  flex-direction: column; }
+.product:hover h3 {
+  color: blue;
+  text-decoration: underline; }
+
+.product:hover div {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  overflow: hidden; }
+  .product:hover div img {
+    transform: scale(1.2);
+    transition: 0.4s; }
 
 @media screen and (max-width: 960px) {
   .cus-collapse {
@@ -59,6 +243,3 @@
 @media screen and (max-width: 672px) {
   .icon-collapse {
     display: none; } }
-
-body {
-  background-color: aqua; }
